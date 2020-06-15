@@ -178,7 +178,15 @@ javascript:(function(){
 					
 				inputs += "</tr>" +				
 				"</table>" +
-				"<table class='dsa_attributes'>" + 
+				"<table><tr class='dsa_modificator'><td>Modifikator:</td><td><select>";
+				for (var i = -3; i < 4; i++) {
+					inputs += "<option value='" + i + "' " + (i==0 ? "selected " : "") +">" + i + "</option>";
+				}
+				
+				
+				inputs += "</select></td></tr></table>";
+				
+				inputs += "<table class='dsa_attributes'>" + 
 					"<tr class='skill_headline'><td colspan=4>Fertigkeiten:</td></tr>" + 
 					"<tr><td colspan=4>";
 					for(var j = 0; j < items.length; j++) {
@@ -215,22 +223,19 @@ javascript:(function(){
 				var attr = $(this).attr("dice-attr");
 				var attrs = attr.split("/");
 				var qsLeft = $("#in_" + name.toLowerCase()).val();
+				var mod = getModificator();
 				if (qsLeft == 'undefined' || qsLeft.length < 1) {
 					qsLeft = 0;
 				}
 				var msg = "Roll '" + name + "(" + qsLeft + ")': ";
 				for (var i=0; i < attrs.length; i++) {
-					var val = $("#dsa_" + attrs[i]).val();
-					if (val == "undefined" || val.length < 1) {
-						val = 0;
-					}
+					var val = getNumValue($("#dsa_" + attrs[i]));
 					var r = rand(20);
-					msg += attrs[i].toUpperCase() + "(" + r + "/" + val + "), ";
-					
+					msg += attrs[i].toUpperCase() + "(" + r + "/" + val + (mod != 0 ? " [Mod:" + mod + "]": "") + "), ";
+					val = val+mod;
 					if (r > val) {
 						qsLeft -= (r-val);
 					}
-					
 				}
 				qs = 0;
 				if(qsLeft > -1) {
@@ -258,18 +263,12 @@ javascript:(function(){
 			
 		
 			$(".dsa_attributes INPUT").change(function() {
-				var val = $(this).val();
-				if(!$.isNumeric(val)) {
-					$(this).val(0);
-				}				
+				getNumValue($(this));				
 				saveDSAData();
 			});
 			
 			$(".skill INPUT").change(function() {
-				var val = $(this).val();
-				if(!$.isNumeric(val)) {
-					$(this).val(0);
-				}
+				getNumValue($(this));
 				saveDSAData();
 			});
 		
@@ -282,12 +281,10 @@ javascript:(function(){
 			
 			$(".dsa_color_val TD").click(function(){
 				var classname = $(this).attr("class").split("_")[1];
-				var val = $("#dsa_" + classname).val();
-				if (val == "") {
-					val = 0;
-				}
+				var val = getNumValue($("#dsa_" + classname));
+				var mod = getModificator();
 				var d = rand(20);
-				send("Roll " + classname.toUpperCase() + " with D20: " + d + (d > val ? " (failed)" : ""));				
+				send("Roll " + classname.toUpperCase() + "(" + val + (mod != 0 ? " [Mod:" + mod + "]": "") + ") with D20: " + d + (d > (val + mod) ? " (failed)" : ""));				
 			});
 		}
 		
@@ -301,6 +298,19 @@ javascript:(function(){
 				send("Roll D6: " + rand(6));
 			});
 		};
+		
+		function getNumValue(elem) {
+			var val = elem.val();
+			if(!$.isNumeric(val)) {
+				elem.val(0);
+			}
+			return parseInt(elem.val());
+		}
+		
+		function getModificator() {
+			return parseInt($(".dsa_modificator Select").val());
+		} 
+		
 		function setInputText(text) {
 			$(".new-message-form__advancedinput").append(text + " ");
 		};
