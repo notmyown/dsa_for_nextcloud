@@ -129,13 +129,20 @@ javascript:(function(){
 			patchNames(ch.namemap);
 			$('.scroller').unbind("DOMSubtreeModified").bind('DOMSubtreeModified', function(){
 				patchNames(character.namemap);
+				$("DIV[data-v-0e88e150]:contains('Roll ')").addClass("dsa_roll_text");
+				$("DIV.dsa_roll_text:contains('failed')").addClass("failed");
 			});
 		}
 		
 		function patchNames(map) {
-			for(var i = 0; i < map.length; i++) {
-				$("h6[data-v-99efb80e]:contains('" + map[i][0] + "')").text(map[i][1]);
+			if (!map) {
+				return;
 			}
+			$.each(map, function(key, element) {
+				if (element.length > 0) {
+					$("h6[data-v-99efb80e]:contains('" + key + "')").text(element);
+				}
+			});
 		}
 		
 		function saveDSAData() {
@@ -171,10 +178,13 @@ javascript:(function(){
 				".dsa_color_val TD.dsa_kk { color: orange;} " +
 				".dsa_attributes TD INPUT{ width: 40px; } " +
 				".skill_subheadline { font-weight: bold; cursor:pointer; margin-left: 10px;} " +
-				".icon-dsa { background-image: url(" + dsaLogo + ");}" + 
-				".dsa_settings { width: 100%;}" + 
-				".dsa_settings IMG { float: right; cursor: pointer;}" + 
-				".ui-dialog { z-index: 99999;}" + 
+				".icon-dsa { background-image: url(" + dsaLogo + ");} " + 
+				".dsa_settings { width: 100%;} " + 
+				".dsa_settings IMG { float: right; cursor: pointer;} " + 
+				".ui-dialog { z-index: 99999;} " + 
+				".dsa_roll_text {color: green;} " + 
+				".dsa_roll_text.failed {color: red;} " + 
+				".dsa_roll_text::before { content: url(" + dice20logo + "); vertical-align: -33%; padding-right: 5px;} " + 
 			"</style>";
 			$("head").append(styles);
 			
@@ -307,21 +317,42 @@ javascript:(function(){
 			$(".dsa_settings IMG").click(function() {
 				showSettings();
 			});
+			
+			$("#dsa").click();
 		}
 		
 		function showSettings() {
+			
 			var dialog = $(".dsa_settings_dialog");
 			if (dialog.length == 0) {
+				var character = JSON.parse(window.localStorage.getItem('dsa'));
+				console.log(character);
+				if (!character.namemap) {
+					character.namemap = {};
+					window.localStorage.setItem('dsa', JSON.stringify(character));
+				}
 				var dialog = "<div class='dsa_settings_dialog ui-widget'><table>";
-			
+				
 				$(".participant-row__user-name").each(function() {
-					dialog += "<tr><td>" + $(this).text() +"</td><td><input name='" + $(this).text() + "' value='Meister'/></td></tr>";
+					var character = JSON.parse(window.localStorage.getItem('dsa'));
+					var val = character.namemap[$(this).text()];
+					val = val ? val: "";
+					dialog += "<tr><td>" + $(this).text() +"</td><td><input class='dsa_name_replace' name='" + $(this).text() + "' value='" + val + "'/></td></tr>";
 				});
 				dialog += "</table></div>";
 				$("body").append(dialog);
+				$(".dsa_name_replace").change(function() {
+					var character = JSON.parse(window.localStorage.getItem('dsa'));
+					var name = $(this).attr("name");
+					var val = $(this).val();
+					character.namemap[name] = val;
+					patchNames(character.namemap);
+					window.localStorage.setItem('dsa', JSON.stringify(character));
+				})
 			}
 			dialog = $(".dsa_settings_dialog");
 			dialog.dialog();
+			
 		}
 		
 		function addButtons() {
@@ -334,6 +365,7 @@ javascript:(function(){
 				send("Roll D6: " + rand(6));
 			});
 		};
+		
 		
 		function getNumValue(elem) {
 			var val = elem.val();
