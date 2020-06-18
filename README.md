@@ -1,3 +1,10 @@
+```diff
+- text in red
++ text in green
+! text in orange
+# text in gray
+```
+
 ![alt text](https://github.com/notmyown/dsa_for_nextcloud/blob/master/logo.png?raw=true)
 
 # Havena – Chronicles
@@ -45,69 +52,63 @@ An seine Kampfgefährten gewandt ergänzt er:
 "*Ich glaube, wir könnten alle ein wenig frische Meeresluft vertragen, was meint ihr?*"
 
 Auch Waerns Nekker-Bräu wird , den 12 seis gedankt, nicht durch die Haut aufgenommen, somit bleibt Gerions Sinnen über der Bierlache ohne Konsequenzen, allerdings haben alle schon zwei Humpen des bläulich schimmernden Bieres getrunken aber nicht alle sind so trinkfest wie ein Zwerg.
-
-Gerion: Roll 'Zechen (4)': KL(15/12), KO(6/13), KK(14/14), -> FP: 1 = QS:1
-
-Balduin: Roll 'Zechen (0)': KL(3/15), KO(6/10), KK(12/10), failed
-
- 
+```diff
++ Gerion: Roll 'Zechen (4)': KL(15/12), KO(6/13), KK(14/14), -> FP: 1 = QS:1
+- Balduin: Roll 'Zechen (0)': KL(3/15), KO(6/10), KK(12/10), failed
+```
 
 Gerion ist schon viel herumgekommen und dabei auch in der ein oder anderen Taverne versackt. Er kann schon gut einschätzen, wann es Zeit für ihn wird das Glas stehen zu lassen. Balduin hingegen hat seinen Humpen doch einmal zu viel geleert. 
 
 Während das Bier nur Gerions Fingerspitzen gefärbt hat, schein Baduin auch darüber hinaus etwas blau zu sein. Leicht wankend schiebt er den Barhocker nach hinten. Dabei ist er leider etwas unkoordiniert und der Hocker fällt zu Boden und stößt eine der jungen Damen am Knie an. Darüber ist diese so erbost, dass sie alle anderen noch verblieben Frauen am Tisch mit sich zieht und die Lokalität verlässt.
 
-Bulduin: Roll 'Sinnesschärfe(2)': KL(18/15 [Mod:-1]), IN(8/14 [Mod:-1]), IN(16/14 [Mod:-1]), failed
-
-Gerion: Roll 'Sinnesschärfe(8)': KL(20/12 [Mod:-1]), IN(1/15 [Mod:-1]), IN(19/15 [Mod:-1]), failed
-
-Gorgol: Roll 'Sinnesschärfe(4)': KL(8/10), IN(3/14), IN(11/14), -> FP: 4 = QS:2
-
- 
+```diff
+- Bulduin: Roll 'Sinnesschärfe(2)': KL(18/15 [Mod:-1]), IN(8/14 [Mod:-1]), IN(16/14 [Mod:-1]), failed
+- Gerion: Roll 'Sinnesschärfe(8)': KL(20/12 [Mod:-1]), IN(1/15 [Mod:-1]), IN(19/15 [Mod:-1]), failed
++ Gorgol: Roll 'Sinnesschärfe(4)': KL(8/10), IN(3/14), IN(11/14), -> FP: 4 = QS:2
+```
 
 Gorgol schaut sinnend den Damen hinterher. Die Kleine ganz links hat einen knackigen Hintern, leider fehlt ihr der Damenbart auf den der Zwerg so steht. Doch als die erste in der Reihe die Tür nach draußen öffnet, stolpert sie leicht nach hinten und die Tür kommt ihr entgegengeweht. (QS 1) Es passiert nichts weiter da eine Freundin sie auffängt und die Damen verlassen die Schatzinsel. Allerdings fällt Gorgol noch auf, dass die Rocksäume sich in der absolut windstillen Abendluft nicht bewegen, während die Frauen sich vor der geöffneten Tür sammeln. (QS 2) Was hat also die Tür aufgedrückt?
 
-"Was meint ihr - Zwerg, begleitet ihr uns durch eine frische Brise?" Möchte Gerion von seinen Kameraden wissen und dieser erwidert: „Gerne, aber bitte nicht so nah am Wasser, ich möchte nicht wieder in diese grässliche Brühe fallen. Ich trinke nur noch schnell das hier aus.“ Er hält einen fast leeren Humpen hoch und stürzt ihn danach in sich hinein.
+"*Was meint ihr - Zwerg, begleitet ihr uns durch eine frische Brise?*" Möchte Gerion von seinen Kameraden wissen und dieser erwidert: „*Gerne, aber bitte nicht so nah am Wasser, ich möchte nicht wieder in diese grässliche Brühe fallen. Ich trinke nur noch schnell das hier aus.*“ Er hält einen fast leeren Humpen hoch und stürzt ihn danach in sich hinein.
 
-Nachdem Gorgol sich den bläulichen Schaum gewischt hat, verlassen die drei Helden die Schatzinsel. Siona zwinkert ihnen zum Abschied zu und Waern stimmt ein Lied an "Auf die Helden Havenas, in wind und Sturm, ob Wüsten trocken, regen nass, Höllen tief oder aufm höchsten Turm, ... 🎼" doch die Helden hören ihn schon gar nicht mehr als die Tür hinter ihnen ins Schloss fällt.
+Nachdem Gorgol sich den bläulichen Schaum gewischt hat, verlassen die drei Helden die Schatzinsel. Siona zwinkert ihnen zum Abschied zu und Waern stimmt ein Lied an "*Auf die Helden Havenas, in wind und Sturm, ob Wüsten trocken, regen nass, Höllen tief oder aufm höchsten Turm, ... 🎼*" doch die Helden hören ihn schon gar nicht mehr als die Tür hinter ihnen ins Schloss fällt.
 
-Wie der Zwerg schon festgestellt hat, liegt Havena wie eh und je in einer trüben Nebelsuppe. Schwer hängt der Dunst in der Luft und scheint sich nicht zu bewegen. Im Westen leuchtet, wie seit einigen Wochen schon, "Der Große" an der Spitze des Efferdtempels. Jener riesige Gwen Petryl, den Ihr den Anhängern des Dunklen entrissen hattet. Durch den Nebel zeigt er sich auf diese Entfernung nur wie ein blauer diffuser Schein. Ihr und ganz Havena habt euch an den Anblick gewöhnt. Aber irgendetwas stört euch heute. Der Nebel ist anders.
+Wie der Zwerg schon festgestellt hat, liegt Havena wie eh und je in einer trüben Nebelsuppe. Schwer hängt der Dunst in der Luft und scheint sich nicht zu bewegen. Im Westen leuchtet, wie seit einigen Wochen schon, "*Der Große*" an der Spitze des Efferdtempels. Jener riesige Gwen Petryl, den Ihr den Anhängern des Dunklen entrissen hattet. Durch den Nebel zeigt er sich auf diese Entfernung nur wie ein blauer diffuser Schein. Ihr und ganz Havena habt euch an den Anblick gewöhnt. Aber irgendetwas stört euch heute. Der Nebel ist anders.
 
-<span style="font-size:0.8em;">
-Balduin: Roll 'Sinnesschärfe(2)': KL(8/15), IN(7/14), IN(9/14), -> FP: 2 = QS:1
+```diff
++ Balduin: Roll 'Sinnesschärfe(2)': KL(8/15), IN(7/14), IN(9/14), -> FP: 2 = QS:1
++ Gerion: Roll 'Sinnesschärfe(8)': KL(11/12), IN(13/15), IN(17/15), -> FP: 6 = QS:2
+```
 
-Gerion: Roll 'Sinnesschärfe(8)': KL(11/12), IN(13/15), IN(17/15), -> FP: 6 = QS:2
-</span>
-
- 
-
-"Oh Mann, was für eine Suppe, vielleicht ist das doch keine so gute Idee ... Vielleicht ziehe ich noch ein wenig weiter in den Süden, dort soll es warm und trocken sein." Gibt Gerion an Baduin gewandt zu verstehen. 
-
-"Das mag mir nicht gefallen... Wir hatten schon Erfahrungen mit 'anderem' Nebel." Antwortet ihm der Magier.
-
- 
+"*Oh Mann, was für eine Suppe, vielleicht ist das doch keine so gute Idee ... Vielleicht ziehe ich noch ein wenig weiter in den Süden, dort soll es warm und trocken sein.*". Gibt Gerion an Baduin gewandt zu verstehen. 
+"*Das mag mir nicht gefallen... Wir hatten schon Erfahrungen mit 'anderem' Nebel.*" Antwortet ihm der Magier.
 
 Gerion, der durch seine Farbenblindheit gelernt hat, besonders auf die Nuancen von Helligkeit zu achten, fällt auf, dass im Westen zwar der Große leuchtet, aber weiter rechts davon, also ungefähr West-Nord-West leuchtet noch etwas anderes. Schwächer zwar aber dafür nicht so stetig, es scheint in Bewegung zu sein. Baduin folgt Gerions Blick und sieht nun auch, dass sich der Nebel über Unterfluren in ein leichtes Wechselspiel aus Gelb, Orang-Rot und Violet verfärbt hat.
 
- 
-
 „Hmm , das gefällt mir irgendwie nicht, seht ihr das auch?" Gerion zeigt in Richtung des Leuchtens. " Entweder brennt dort ein Schiff, oder etwas seltsameres geht dort vor sich. Ich denke, die "Helden von Havena" sollten sich das mal näher ansehen, was meint ihr?"
-
- 
 
 "Ich sehe es auch. Das kann sicherlich nichts gutes bedeuten." Antwortet Baduin un schweigt einen Moment* "Sehen wir es uns an!"
 
- 
-
 Die Gruppe setzt sich in Bewegung. Der dichte Nebel schluckt die meisten Geräusche und auch Lichter in der Ferne sind nur als diffuse Erscheinungen zu erahnen. Doch je näher man der Prinzessin-Emer-Brücke kommt umso deutlicher wird, dass es in Unterfluren brennt. Baduin erkennt eindeutig die typischen Bewegungen der Flammen. Seltsam ist nur, dass ab und zu auch violette, grüne oder gar schwarze Flammen aufzüngeln und vergehen. Jetzt kommen auch die ersten Passanten über die Brücke gerannt. Eine junge Frau läuft "Feuer! Feuer!" schreiend an euch vorbei. Gorgol schaut ihr nach, erkennt den Po und denkt sich, "war das die Kleine von vorhin? Hatte sie jetzt doch einen Damenbart?" 
 
- 
+```diff
+- Gorgol: Roll 'Sinnesschärfe(4)': KL(8/10), IN(19/14), IN(10/14),  failed
+```
 
 Gerion wird nervöser und fragt "Balduin, was sagen eure besonderen Sinne? Mir scheint das kein normales Feuer zu sein.". Er fängt an schneller in Richtung der Brücke zu laufen und ruft einen der entgegenkommenden Passanten an : "Was ist geschehen, was habt ihr gesehen?".
 
- 
-
 Zwei ältere Männer und ein junges Mädchen kommen an euch vorbeigelaufen. Ihr scheinen ihre Sachen viel zu groß zu sein, während die Kleidung der Männer an allen Ecken spannt und reißt. Das Mädchen antwortet mit der Stimme einer gestandenen Frau: "Die Apotheke, sie brennt. Es gab eine Explosion. Es geschehen seltsame Dinge. Bringt euch in Sicherheit!" Einer der Männer beginnt zu weinen "Mama.. ich habe Angst...". Das Mädchen nimmt die Männer an die Hand und läuft schneller.
 
- 
-
 „Habt ihr das gesehen? Was geht hier vor? Balduin, ist das Magie, Alchemie oder Hexerei?“ möchte Gerion wissen.
+
+```diff
++ Balduin: Roll 'Magiekunde(10)': KL(9/15), KL(8/15), IN(9/14),  -> FP: 10 = QS:4
++ Balduin: Roll 'Alchimie(4)': MU(12/12), KL(19/15), FF(1/13),  -> FP: 0 = QS:1
++ Gerion:Roll 'Alchimie(0)': MU(1/12), KL(9/12), FF(8/9),  -> FP: 0 = QS:1
+```
+
+Baduin ist geübt im Umgang mit Elexiren und mit Magie und kennt daher sehr wohl den Unterschied ihrer Wirkung. Diesmal jedoch scheint es ihm nicht eindeutig möglich zu sein einen Unterschied zu machen. Als ob die alchemischen Substanzen mit Taumaturgie durchsetz wären. Natürlich führt Meister Erwaldt Tinkturen, die ein jugendlicheres Aussehen fördern sollen und auch Kosmetika die es jungen Damen ermöglichen in die reiferen Etablissements zu kommen. Aber diese Tinkturen wirken sich nicht wahrlich auf die Physilogie aus. Die Fragen "*Ist es Magie?*" und "*Ist es Alchemie?*" lassen sich nur beide mit ja beantworten.
+Gerion kann dem noch hinzufügen, dass alchemische Experiment in der Lage sein können, ganze Häuser zu sprengen, wenn man nicht vorsichtig ist.
+
+Dem Zwerg wird etwas mulmig "*Das sieht mir alles nicht geheuer aus. Ich weiß nicht ob wir uns da näher raun trauen sollten. Hat nicht einer von euch aushilfsweise in der Apotheke gearbeitet?*".
+
