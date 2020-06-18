@@ -1,10 +1,3 @@
-```diff
-- text in red
-+ text in green
-! text in orange
-# text in gray
-```
-
 ![alt text](https://github.com/notmyown/dsa_for_nextcloud/blob/master/logo.png?raw=true)
 
 # Havena – Chronicles
