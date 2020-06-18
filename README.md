@@ -78,21 +78,21 @@ Wie der Zwerg schon festgestellt hat, liegt Havena wie eh und je in einer trübe
 
 Gerion, der durch seine Farbenblindheit gelernt hat, besonders auf die Nuancen von Helligkeit zu achten, fällt auf, dass im Westen zwar der Große leuchtet, aber weiter rechts davon, also ungefähr West-Nord-West leuchtet noch etwas anderes. Schwächer zwar aber dafür nicht so stetig, es scheint in Bewegung zu sein. Baduin folgt Gerions Blick und sieht nun auch, dass sich der Nebel über Unterfluren in ein leichtes Wechselspiel aus Gelb, Orang-Rot und Violet verfärbt hat.
 
-„Hmm , das gefällt mir irgendwie nicht, seht ihr das auch?" Gerion zeigt in Richtung des Leuchtens. " Entweder brennt dort ein Schiff, oder etwas seltsameres geht dort vor sich. Ich denke, die "Helden von Havena" sollten sich das mal näher ansehen, was meint ihr?"
+„*Hmm , das gefällt mir irgendwie nicht, seht ihr das auch?*" Gerion zeigt in Richtung des Leuchtens. "*Entweder brennt dort ein Schiff, oder etwas seltsameres geht dort vor sich. Ich denke, die "Helden von Havena" sollten sich das mal näher ansehen, was meint ihr?*"
 
-"Ich sehe es auch. Das kann sicherlich nichts gutes bedeuten." Antwortet Baduin un schweigt einen Moment* "Sehen wir es uns an!"
+"*Ich sehe es auch. Das kann sicherlich nichts gutes bedeuten.*" Antwortet Baduin un schweigt einen Moment "*Sehen wir es uns an!*"
 
-Die Gruppe setzt sich in Bewegung. Der dichte Nebel schluckt die meisten Geräusche und auch Lichter in der Ferne sind nur als diffuse Erscheinungen zu erahnen. Doch je näher man der Prinzessin-Emer-Brücke kommt umso deutlicher wird, dass es in Unterfluren brennt. Baduin erkennt eindeutig die typischen Bewegungen der Flammen. Seltsam ist nur, dass ab und zu auch violette, grüne oder gar schwarze Flammen aufzüngeln und vergehen. Jetzt kommen auch die ersten Passanten über die Brücke gerannt. Eine junge Frau läuft "Feuer! Feuer!" schreiend an euch vorbei. Gorgol schaut ihr nach, erkennt den Po und denkt sich, "war das die Kleine von vorhin? Hatte sie jetzt doch einen Damenbart?" 
+Die Gruppe setzt sich in Bewegung. Der dichte Nebel schluckt die meisten Geräusche und auch Lichter in der Ferne sind nur als diffuse Erscheinungen zu erahnen. Doch je näher man der Prinzessin-Emer-Brücke kommt umso deutlicher wird, dass es in Unterfluren brennt. Baduin erkennt eindeutig die typischen Bewegungen der Flammen. Seltsam ist nur, dass ab und zu auch violette, grüne oder gar schwarze Flammen aufzüngeln und vergehen. Jetzt kommen auch die ersten Passanten über die Brücke gerannt. Eine junge Frau läuft "*Feuer! Feuer!*" schreiend an euch vorbei. Gorgol schaut ihr nach, erkennt den Po und denkt sich, "*War das die Kleine von vorhin? Hatte sie jetzt doch einen Damenbart?*" 
 
 ```diff
 - Gorgol: Roll 'Sinnesschärfe(4)': KL(8/10), IN(19/14), IN(10/14),  failed
 ```
 
-Gerion wird nervöser und fragt "Balduin, was sagen eure besonderen Sinne? Mir scheint das kein normales Feuer zu sein.". Er fängt an schneller in Richtung der Brücke zu laufen und ruft einen der entgegenkommenden Passanten an : "Was ist geschehen, was habt ihr gesehen?".
+Gerion wird nervöser und fragt "*Balduin, was sagen eure besonderen Sinne? Mir scheint das kein normales Feuer zu sein.*". Er fängt an schneller in Richtung der Brücke zu laufen und ruft einen der entgegenkommenden Passanten an : "*Was ist geschehen, was habt ihr gesehen?*".
 
-Zwei ältere Männer und ein junges Mädchen kommen an euch vorbeigelaufen. Ihr scheinen ihre Sachen viel zu groß zu sein, während die Kleidung der Männer an allen Ecken spannt und reißt. Das Mädchen antwortet mit der Stimme einer gestandenen Frau: "Die Apotheke, sie brennt. Es gab eine Explosion. Es geschehen seltsame Dinge. Bringt euch in Sicherheit!" Einer der Männer beginnt zu weinen "Mama.. ich habe Angst...". Das Mädchen nimmt die Männer an die Hand und läuft schneller.
+Zwei ältere Männer und ein junges Mädchen kommen an euch vorbeigelaufen. Ihr scheinen ihre Sachen viel zu groß zu sein, während die Kleidung der Männer an allen Ecken spannt und reißt. Das Mädchen antwortet mit der Stimme einer gestandenen Frau: "*Die Apotheke, sie brennt. Es gab eine Explosion. Es geschehen seltsame Dinge. Bringt euch in Sicherheit!*" Einer der Männer beginnt zu weinen "*Mama.. ich habe Angst...*". Das Mädchen nimmt die Männer an die Hand und läuft schneller.
 
-„Habt ihr das gesehen? Was geht hier vor? Balduin, ist das Magie, Alchemie oder Hexerei?“ möchte Gerion wissen.
+„*Habt ihr das gesehen? Was geht hier vor? Balduin, ist das Magie, Alchemie oder Hexerei?*“ möchte Gerion wissen.
 
 ```diff
 + Balduin: Roll 'Magiekunde(10)': KL(9/15), KL(8/15), IN(9/14),  -> FP: 10 = QS:4
