@@ -135,7 +135,7 @@ Gorgol, der Kitoran oft bei der Arbeit besucht hatte, kennt die Straße recht gu
 
 ```diff
 - Gorgol: Roll 'Sinnesschärfe(4)': KL(11/10), IN(15/14), IN(17/14),  -> failed
-+ Baduin: Roll 'Sinnesschärfe(2)': KL(3/15), IN(17/14), IN(20/14),  failed
+- Baduin: Roll 'Sinnesschärfe(2)': KL(3/15), IN(17/14), IN(20/14),  failed
 + Gerion: Roll 'Sinnesschärfe(8)': KL(7/12), IN(2/15), IN(14/15),  -> FP: 8 = QS:3
 ```
 
