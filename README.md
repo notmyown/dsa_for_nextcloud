@@ -108,3 +108,37 @@ Dem Zwerg wird etwas mulmig "*Das sieht mir alles nicht geheuer aus. Ich weiß n
 Baduin versucht Gorgol zu beruhigen: "*Es handelt sich in jedem Fall um Alchemie und auch Magie. Wir sollten vorsichtig sein! Lasst uns weitergehen.*" scheitert damit aber.
 
 Die Helden kennen den Weg zur Apotheke gut, doch auch wenn sie ihn nicht kennen würden, müssten sie nur dem Weg der Verwüstung folgen. Eine Druckwelle scheint ausgehend vom Gebäude des Alchemisten durch die Stadt gefegt zu sein. Gorgol kommt in den Sinn, dass er wahrscheinlich vorhin diese Druckwelle bemerkt hat, die die Tür aufstiess. Als die Helden in die Straße der Apotheke einbiegen, werden Sie von einem Pumpenwagengespann mit Pferd überholt.
+
+```diff
+- Gerion: Roll 'Körperberrschung(4)': GE(19/14), GE(4/14), KO(18/13),  failed
+- Baduin: Roll 'Körperberrschung(0)': GE(17/12), GE(19/12), KO(3/10),  failed
++ Gorgol: Roll 'Körperberrschung(10)': GE(13/13), GE(4/13), KO(19/15),  -> FP: 6 = QS:2
+```
+
+Gorgol der ohnehin nicht alzu groß ist schafft es sich unter dem Gespann wegzuducken und zur Seite zu springen. Auch die beiden Menschen versuchen auszuweichen und wagen einen beherzten Sprung zur Seite. Baduin jedoch verhedert sich in seinem Umhang und Gerions alte Knochen schaffen den Absprung nicht rechtzeitig. Baduin wird vom Heck des Wagens tuschiert und fällt zu Boden. Gerion wird vom schwingenden Löschschlauch an der Hüfte getroffen und knickt ein.
+Der Wagen, desen Fahrer nun doch auf die Idee kommt die Notglocke zu läuten fährt soweit an die Apotheke heran, wie es die Flammen erlauben. Doch gerade als der Fahrer und der zweite Feuer-Weibel absteigen wollen, zereist eine Explosion die noch halbwegs intakte Schaufesnterscheibe des Gebäudes und eine Wolke Lila-Qualms erfasst das Gespann und die tapferen Feuerwehrleute, die darin nicht mehr zu sehen sind.
+
+Gerion humplet mit verzerrtem Gesicht an die nächst Hauswand um sich abzustützen. "*Baduin, alles in Ordnung? Ihr hattet doch einen Freund, der dort arbeitet, oder? War er heute in der Apotheke?*".
+Baduin steht wieder auf und klopft seine Robe ab, um sie notdürftig vom Dreck zu befreien "*Ja, ich habe einen schmerzhaften Stoß abbekommen und bin etwas dreckig, aber sonst ist alles in Ordnung. Und bei euch? Das Bein sieht schmerzhaft aus." <Kurze Pause, während Baduin auf Gerions Bein zeigt> "Der Name meines Freundes lautet Kitoran Eichengrund. Er unterstützt Alamair Ehrwalt, den Apotheker, bei dessen Arbeiten. Ich kann nicht sagen, ob er heute in der Apotheke gewesen ist, hoffe aber, dass ihm nichts passiert ist. Wir sollten umgehend nachschauen gehen, wenn ihr euch wieder bereit fühlt.*"
+
+Sichtlich besorgt gibt Gerion zurück "*Na dann lasst uns schnell nachschauen. Ich kann mir nicht vorstellen, dass ihr ihn unversehrt wiederseht, falls er in der Apotheke war. Wer weiß, wie alt er nun ist...*". Er humpelt auf die lila Wolke zu, hält aber gebührenden Abstand. 
+
+Als ob der Schlag des Schlauchs Gerions Sinne geschärft hätte, schaut er die Straße hinunter. Die Wolke über dem Löschfahrzeug fasert aus und wird dann eins mit dem Nebel, bis sie nicht mehr als eigenständige Entität zu erkenne ist. Die Besatzung und auch das Pferd sind jedoch nicht mehr zu sehen. Immer wieder züngeln kleine Flammen in unterschiedlichen Farben aus den Bruchstücken des Gebäudes. Als eine kleine grüne Gaswolke ein vorbei fliegende Taube streift, kann Gerion erkennen wie sich diese zurück in ein Ei verwandelt und dieses dann, durch die Trägheit getragen mit einem saftigen Flutsch an der Wand zerschelt. Als Gerion nochmals den Pumpenwagen betrachtet, sieht er wie sich sowohl vorne im Geschirr als auch auf dem Kutschbock etwas rührt. 
+
+```diff
++ Gorgol: Roll 'Orientierung(1)': KL(6/10 [Mod:2]), IN(13/14 [Mod:2]), IN(5/14 [Mod:2]),  -> FP: 1 = QS:1
++ Baduin: Roll 'Orientierung(3)': KL(17/15 [Mod:2]), IN(10/14 [Mod:2]), IN(16/14 [Mod:2]),  -> FP: 3 = QS:1
++ Gerion: Roll 'Orientierung(7)': KL(7/12), IN(9/15), IN(5/15),  -> FP: 7 = QS:3
+```
+
+Gorgol, der Kitoran oft bei der Arbeit besucht hatte, kennt die Straße recht gut und ruft seinen Kameraden gerade noch rechtzeitig zu: "Achtung! Haltet euch von den Kanalisationsdeckeln fern. Der Keller der Apotheke hat eine drekte Verbindung zu diesem Abflussrohr." Und als hätte der Zwerg die Zukunft erahnt, strömt in diesem Moment etwas weiter unten eine rose Wolke aus einer Öffnung und erfasst zwei Serganten der Stadtwache die einem Mann mittleren Alters unter einigen Trümmern hervor helfen wollen.
+
+```diff
+- Gorgol: Roll 'Sinnesschärfe(4)': KL(11/10), IN(15/14), IN(17/14),  -> failed
++ Baduin: Roll 'Sinnesschärfe(2)': KL(3/15), IN(17/14), IN(20/14),  failed
++ Gerion: Roll 'Sinnesschärfe(8)': KL(7/12), IN(2/15), IN(14/15),  -> FP: 8 = QS:3
+```
+
+Jetzt erst bemerken die Helden, dass recht viele Menschen hier sind um zu helfen. Neben der verunglückten Kutsche sind noch die Serganten mit dem Mann zu sehen, ein Knabe der einer Frau hilft sich vor den Flamen zu schützen und ein Akolyt der Efferdkirche der in einiger Entfernung auf dem Boden kniet und scheinbar seinen Gott befleht ihm Wasser zu schicken. Aber auch weniger hilfreiche Leute sind zu sehen, eine Gruppe von Marktfrauen die sich bitterböse streiten und ein Mann der wild seine ungewöhnlich langen Haare umherwirft.
+
+
