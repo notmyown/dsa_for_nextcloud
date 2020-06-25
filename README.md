@@ -141,4 +141,35 @@ Gorgol, der Kitoran oft bei der Arbeit besucht hatte, kennt die Straße recht gu
 
 Jetzt erst bemerken die Helden, dass recht viele Menschen hier sind um zu helfen. Neben der verunglückten Kutsche sind noch die Serganten mit dem Mann zu sehen, ein Knabe der einer Frau hilft sich vor den Flamen zu schützen und ein Akolyt der Efferdkirche der in einiger Entfernung auf dem Boden kniet und scheinbar seinen Gott befleht ihm Wasser zu schicken. Aber auch weniger hilfreiche Leute sind zu sehen, eine Gruppe von Marktfrauen die sich bitterböse streiten und ein Mann der wild seine ungewöhnlich langen Haare umherwirft.
 
+Nachdem Alrigo sich heute morgen erst einen neuen Umhang hat schneidern lassen, musste dieser heute natürlich getragen werden. Und welch bessere Gelegenheit gibt es dafür als mit einer nette Dame, von denen es in Havena so viele gibt, gemeinsam zu Essen und nach dem Essen einen Spaziergang durch den ach so schönen Nebel zu machen. Auch wenn er sich so langsam doch die Sonne zurück sehnt. "*Aber was soll es, wenn die Leute einen hier schon für einen Helden halten, kann man auch mit dem Wetter leben*".
+Auch wenn er grade noch eine andere Frau am Arm hielt, kann er einer anderen Maid in Nöten nicht widerstehen und läuft zu dem Jungen um ihr zu helfen, nachdem er seiner Begleitung auf dramatische Art klargemacht hat, dass es Heldenarbeit zu erledigen gibt.
 
+Schmachtend steht Alrigos Begleitung in gebührendem Abstand zum Feuer neben der Straße und schaut ihrem Helden hinterher. "*Ob er sie auch einmal so heroisch durch die Nacht tragen wird?*". Alrigo hat derweil schon ihren Namen vergessen und taucht blitzartig unter einer Stichflamme hinweg, die noch aus einem Riss in der Hauswand schießt. Der Junge der die Dame schützt, 10 oder 11,  is ebenfalls wahrlich ein Held, seine Haare qualmen schon von der Hitze doch er schützt die Dame, die Mitte 20 zu sein scheint, mit seinem Körper. Als Alrigo bei den Beiden eintrifft sind sie sehr dankbar, denn die Kräfte des Jungen schwinden. Die Frau scheint am Knöchel verletzt und muss gestützt werden.
+
+Währendessen versucht Gerion die Situation zu erfassen, als aus dem Nebel Alrigo mit wallendem Haar auf die Frau zusprintet, die sich versucht vor den bunten Flammen zu schützen. Da diese nun versorgt ist humpelt Gerion zu den Sergeanten, um diesen zur Seite zu stehen. "*Kommt, lasst uns das hier in Ordnung bringen*".
+Erleichtert darüber, dass mit Alrigo, nun auch weiter kompetente Hilfe eingetroffen ist, will er gemeinsam mit den Serganten den Mann unter den Trümmern hervorholen. Allerdings merkt er, dass die Serganten nicht mehr ganz bei der Sache sind. Sie fassen sich doch tatsächlich an den Händen und schauen sich verliebt in die Augen. Gerion sieht noch, wie sich einige rose Rauchwölkchen hinter den Beiden im Nebel auflösen. 
+Er gibt den Helfern zwei schallende Ohrfeigen in der Hoffnung, dass diese zur Besinnung kommen. "*Passt auf die Dämpfe auf, die bringen alles Durcheinander*" ruft er über seine Schulter.
+Einer der Serganten schaut Gerion daraufhin verdutzt an, verzieht das Gesicht zu einer wütenden Fratze und beschimpft den Avis-Geweihten. "*Was fällt euch ein einen Serganten der Stadtwache von Havena zu schlagen. Dafür werdet ihr hängen!*". Sein Kollege nimmt ihn jedoch in den Arm und säuselt ihm ins Ohr. "*Ach Liebling, der gute Mann hat doch Recht. Wir müssen doch hier helfen. Lass uns nachher gemeinsam einen Kaffeetrinken gehen. Wenn alles hier vorbei ist haben wir Zeit für uns.*". Verliebt blinzelnd lenkt der Erste ein und die beiden Serganten versuchen das Trümmerstück anzuheben unter dem der mittlerweile bewusstlose Mann einklemmt ist. Der vernünftigere Sergant deutet Gerion, den Mann hervorzuziehen.
+
+```diff
+- Gerion: Roll 'Kraftakt(4)': KO(16/13), KK(3/14), KK(19/14),  failed
+```
+Gerion zieht den Mann an den Armen, sein verwundetes Bein knickt vor Schmerz weg und er fällt in den Dreck Havenas. Er versucht mit aller Kraft den Mann hervorzuziehen, jedoch scheint sein Schuh sich verkeilt zu haben, so dass er nicht frei kommt. Über Gerion ächtzen die Serganten, können aber das Gewicht noch halten.
+Gerion flucht und rappelt sich wieder auf. "*Hau ruck ...*"
+
+```diff
+- Gerion: Roll 'Kraftakt(4)': KO(15/13), KK(7/14), KK(12/14),  -> FP: 2 = QS:1
+```
+Alrigo schickt derweil den Jungen fort um ihn in Sicherheit zu wissen "*Lauf bevor du zu einem Brathähnchen wirst!*". So das Gewicht der Dame es zulässt, nimmt er sie auf die Arme und versucht sie in Sicherheit zu tragen.
+Der hilfreiche Junge gesteht sich ein, dass seine Kräfte nicht ausreichen um die Frau zu retten. "*Habt Dank werter Herr, seht ihr dort drüben den Brunnen, lasst sie uns dort hinbringen um die Brandwunden zu kühlen.*". Alrigo schaut in die Richtung in die der Junge deutet und geht, die Frau auf dem Arm dem Brunnen entgegen. Plötzlich bricht ein Trümmerstück der Apotheke herab und fällt zwischen Alrigo und dem Brunnen, auf den Boden. Der Junge der bereits vorraus eilen wollte, kann zwar noch ausweichen, wird im nächsten Moment aber von einer grünen Wolke umhüllt.
+
+Andernorts stehen Gorgol und Baduin noch immer schockiert in der Nähe der Abflussöffnungen und werden dabei von einem erneuten Gasausbruch überrascht
+
+```diff
+! Schicksal: Roll D6: 5
+```
+und von einer grünen Gaswolke umhüllt.
+
+Gerion bekommt von all dem nichts mit, weil er in Aufbietung all seiner Kräfte, den Mann unter den Schultern packt und zieht. Er hört zwar ein hässliches Knacken als der Mann unter dem Trümmerstück hervorschnellt und in seinen Armen landet, aber es klingt allemal besser als der Knall der nur Sekundenbruchteile später ertönt als den Serganten das Trümmerstück entgleitet und zu Boden stürzt.
+Der Avis-Geweihte prüft die Verletzung des Mannes.
+Gerion hatte im Laufe seiner vielen Reisen schon einige Knochenbrüche gesehn. Er erkannte, dass der Unterschenkel des Mannes gebrochen war. Gerion konnte zwar noch so klar denken, um den Schuh des Mannes zu öffnen, damit die Schwellung ihn nicht den fuss kostete aber für mehr Hilfe fehlte im hier und jetzt die Geduld. Der Mann würde nicht an dem Bruch sterben, anderen erging es vielleicht gerade nicht so gut.
