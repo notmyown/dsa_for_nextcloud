@@ -158,8 +158,9 @@ Gerion zieht den Mann an den Armen, sein verwundetes Bein knickt vor Schmerz weg
 Gerion flucht und rappelt sich wieder auf. "*Hau ruck ...*"
 
 ```diff
-- Gerion: Roll 'Kraftakt(4)': KO(15/13), KK(7/14), KK(12/14),  -> FP: 2 = QS:1
++ Gerion: Roll 'Kraftakt(4)': KO(15/13), KK(7/14), KK(12/14),  -> FP: 2 = QS:1
 ```
+
 Alrigo schickt derweil den Jungen fort um ihn in Sicherheit zu wissen "*Lauf bevor du zu einem Brathähnchen wirst!*". So das Gewicht der Dame es zulässt, nimmt er sie auf die Arme und versucht sie in Sicherheit zu tragen.
 Der hilfreiche Junge gesteht sich ein, dass seine Kräfte nicht ausreichen um die Frau zu retten. "*Habt Dank werter Herr, seht ihr dort drüben den Brunnen, lasst sie uns dort hinbringen um die Brandwunden zu kühlen.*". Alrigo schaut in die Richtung in die der Junge deutet und geht, die Frau auf dem Arm dem Brunnen entgegen. Plötzlich bricht ein Trümmerstück der Apotheke herab und fällt zwischen Alrigo und dem Brunnen, auf den Boden. Der Junge der bereits vorraus eilen wollte, kann zwar noch ausweichen, wird im nächsten Moment aber von einer grünen Wolke umhüllt.
 
@@ -172,4 +173,26 @@ und von einer grünen Gaswolke umhüllt.
 
 Gerion bekommt von all dem nichts mit, weil er in Aufbietung all seiner Kräfte, den Mann unter den Schultern packt und zieht. Er hört zwar ein hässliches Knacken als der Mann unter dem Trümmerstück hervorschnellt und in seinen Armen landet, aber es klingt allemal besser als der Knall der nur Sekundenbruchteile später ertönt als den Serganten das Trümmerstück entgleitet und zu Boden stürzt.
 Der Avis-Geweihte prüft die Verletzung des Mannes.
+
+```diff
+- Gerion: Roll 'Heilkunde Wunden(0)': KL(10/12), FF(12/9), FF(5/9), failed
+```
+
 Gerion hatte im Laufe seiner vielen Reisen schon einige Knochenbrüche gesehn. Er erkannte, dass der Unterschenkel des Mannes gebrochen war. Gerion konnte zwar noch so klar denken, um den Schuh des Mannes zu öffnen, damit die Schwellung ihn nicht den fuss kostete aber für mehr Hilfe fehlte im hier und jetzt die Geduld. Der Mann würde nicht an dem Bruch sterben, anderen erging es vielleicht gerade nicht so gut.
+Gerion schaut sich um und entscheidet sich dafür die streitenden Frauen zu beruhigen. Auf dem Weg dorthin kommt er an dem Löschfahrzeug vorbei und sieht sich interessiert um.
+
+```diff
++ Gerion: Roll 'Sinnesschärfe(8)': KL(14/12), IN(17/15), IN(4/15),  -> FP: 4 = QS:2
+```
+
+Die violete Wolke über dem Gespann hatte sich bereits aufgelöst und die Kutsche stand verweist vor Gerion. Als er jedoch genauer hinsieht, entdeckt er auf dem Kutchbock zwei Mäuse die wie wild auf dem Brett hin und her rennen. Das Zaumzeug, welches verwaist vor dem Löschnfahrzeug hängt, beherbergt nun kein Havena-Kaltblut mehr, sondern eine gefleckte kleine Katze, die zum Glück noch im Geschirr festhängt, da sie versucht, zu den Mäusen zu gelangen.
+
+Alrigo versucht in der Zwischenzeit mit sammt seiner lebenden Fracht, über die Trümmer zu steigen. 
+
+```diff
+- Alrigo: Roll 'Klettern(3)': MU(2/14), GE(10/15), KK(17/11),  failed
+```
+
+Er schafft es auch fast, rutscht jedoch auf dem Zenit aus und fällt auf der anderen Seite herunter. Wie ein Held, der er nunmal ist, gelingt es ihm jedoch sich noch einmal zu drehen und die Frau so vor dem Aufprall zu schützen. Auf der anderen Seite nimmt ihm ein junger Mann die Frau ab und hilft auch Alrigo auf. Seine Kleider scheinen ihm zu klein und seine Haare qualmen von der Hitze als er die Frau zum Brunnen trägt und ihre leichten Brandwunden mit Wasser kühlt.
+
+Gerion schaut entsetzt auf die Mäuse, als im klar wird, um wen es sich hier handelt. Seine Gedanken rasen. Nach einigen Augenblicken reißt er sich den Rucksack vom Rücken und kramt seinen Kapuzenumhang heraus. Er wirft diesen auf die Mäuse um sie zu fangen und in Sicherheit zu bringen.
