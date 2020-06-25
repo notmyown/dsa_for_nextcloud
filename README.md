@@ -196,3 +196,22 @@ Alrigo versucht in der Zwischenzeit mit sammt seiner lebenden Fracht, über die 
 Er schafft es auch fast, rutscht jedoch auf dem Zenit aus und fällt auf der anderen Seite herunter. Wie ein Held, der er nunmal ist, gelingt es ihm jedoch sich noch einmal zu drehen und die Frau so vor dem Aufprall zu schützen. Auf der anderen Seite nimmt ihm ein junger Mann die Frau ab und hilft auch Alrigo auf. Seine Kleider scheinen ihm zu klein und seine Haare qualmen von der Hitze als er die Frau zum Brunnen trägt und ihre leichten Brandwunden mit Wasser kühlt.
 
 Gerion schaut entsetzt auf die Mäuse, als im klar wird, um wen es sich hier handelt. Seine Gedanken rasen. Nach einigen Augenblicken reißt er sich den Rucksack vom Rücken und kramt seinen Kapuzenumhang heraus. Er wirft diesen auf die Mäuse um sie zu fangen und in Sicherheit zu bringen.
+
+```diff
+- Gerion: Roll 'Tierkunde(7)': MU(20/12), MU(10/12), CH(3/11),  failed
+! Gerion: Schicksalspunkt
++ Gerion: Roll 'Tierkunde(7)': MU(4/12), MU(12/12), CH(6/11),  -> FP: 7 = QS:3
+```
+
+In einem Moment des Friedens innerhalb des Chaos beruhigt Gerion die Maus in seinem Umhang. Sie hat einen roten Streifen auf dem Rücken, wie der Umhang des Gespannführers. Sie scheint Gerion zugetan und schnüffelt an seiner Hand als er sie streichelt. Dennoch entwischt sie dem Umhang, huscht an Gerion herunter und bleibt an seinem Hosenbein hängen. Sie schnüffelt an seinem Knie und schaut ihn ganz schuldbewusst an als wolle sie sich entschuldigen. Dann klettert sie wieder an ihm hinauf , huscht in seine Brusttache und schaut daraus hervor. Mit einem auffordernden "*Quieck*" deutet sie Gerion voran zu gehen.
+Gerion lächelt die kleine Pelzkugel an und murmelt: "*Mal schauen was wir mit dir machen, aber jetzt hast du Recht, wir haben noch so einiges zu tun*". Gerion schaut sich um, Alles dringende scheint erledigt zu sein. Hier und da wabern ein paar bunte Wölkchen in der Gegend rum und als er erneut den Efferdgeweihten bei seinem Gebet sieht hält er es für eine gute Idee, die Luft durch ein wenig Regen reinigen zu lassen. Er tritt auf den Geweihten zu und fragt ihn vorsichtig, ob er ihm helfen könne.
+
+"*Efferd, launenhafter Herrscher von Wind und Wogen. Auf deine Gunst bauen wir Menschen aller Küsten, aller Flüsse, aller Wüsten, dass du sie führst zu guten Gründen und ihnen sendest rettend' Nass. Jetzt bitte ich, dein guter Diener lass kommen das Nass hernieder zeig mit deiner Wasserkraft dass du des Feuers Ende machst*"
+
+Der Geweihte reckt die Hände gen Himmel doch nichts geschieht. "*Herr, helft mir*" er blickt zu Gerion, "*Ich sehe ihr seit dem Aves geweiht, doch im Rat der 12 gibt es niemanden der so ein Unheil will. Bitte schenkt mir eure Kraft, lasst uns gemeinsam zu Efferd beten, als dass er uns mit seinen Wasser die Flammen löscht. Auch euer Herr wird es euch mit Dank vergüten*".
+
+Gerion kniet sich neben den Efferdgeweihten auf das Havener Pflaster und schließt die Augen. Er wendet sich an seinen Gott : "*Aves , hilf uns und lasse Regen diese Straßen reinigen und die Feuer löschen*" und fällt in das Gebet des Efferdgeweihten ein.
+
+```diff
++ Gerion: Roll 'Götter & Kulte(6)': KL(6/12), KL(4/12), IN(8/15),  -> FP: 6 = QS:2
+```
