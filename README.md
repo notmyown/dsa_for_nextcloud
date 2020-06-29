@@ -215,3 +215,15 @@ Gerion kniet sich neben den Efferdgeweihten auf das Havener Pflaster und schlie�
 ```diff
 + Gerion: Roll 'Götter & Kulte(6)': KL(6/12), KL(4/12), IN(8/15),  -> FP: 6 = QS:2
 ```
+
+Noch während Gerion mit der Rettung des Mannes unter dem Trümmerstück beschäfftigt war, wurden Gorgol und Baduin von einer Gasexplosion überrascht. Der grüne Rauch umhüllte sie vollkommen. Man konnte sie von außen nicht mehr sehen. Im Inneren der Wolke jedoch standen die Beiden wie in einer größen grünen Halle. Die Umgebung waberte in Schlieren vor ihren Augen. Es bildete sich ein vortexcher Wirbel vor Baduin und Gorgol, 
+
+```diff
++ Gorgol: Roll 'Körperberrschung(10)': GE(20/13), GE(9/13), KO(16/15),  -> FP: 2 = QS:1
+- Baduin: Roll 'Körperberrschung(0)': GE(8/12), GE(14/12), KO(9/10),  failed
+```
+doch nur der Zwerg war geistesgegenwärtig genug, zur Seite zu springen. Er durchstieß die Grenze zur Außenwelt und landete unsanft auf dem Flaster der Straße. Der Vortex jedoch berührte Baduin und drang durch ihn hindurch. Als der Zauberer einmal durchdrungen war, schloss sich der Wirbel und die Wolke löste sich im Nebel Havenas auf.
+```diff
+! Schicksal: Roll D20: 16
+```
+Baduin sackte zusammen. Seine jugendlichen Gesichtszüge fiehlen ein und er bekam Falten wie aus dem Nichts. Das Haar wurde etwas fahler und begann sich an den Schläfen schon leicht gräulich zu färben. Baduin war mit einem Schlag 16 Jahre gealtert.
