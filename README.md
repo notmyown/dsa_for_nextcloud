@@ -222,8 +222,124 @@ Noch während Gerion mit der Rettung des Mannes unter dem Trümmerstück beschä
 + Gorgol: Roll 'Körperberrschung(10)': GE(20/13), GE(9/13), KO(16/15),  -> FP: 2 = QS:1
 - Baduin: Roll 'Körperberrschung(0)': GE(8/12), GE(14/12), KO(9/10),  failed
 ```
+
 doch nur der Zwerg war geistesgegenwärtig genug, zur Seite zu springen. Er durchstieß die Grenze zur Außenwelt und landete unsanft auf dem Flaster der Straße. Der Vortex jedoch berührte Baduin und drang durch ihn hindurch. Als der Zauberer einmal durchdrungen war, schloss sich der Wirbel und die Wolke löste sich im Nebel Havenas auf.
+
 ```diff
 ! Schicksal: Roll D20: 16
 ```
+
 Baduin sackte zusammen. Seine jugendlichen Gesichtszüge fiehlen ein und er bekam Falten wie aus dem Nichts. Das Haar wurde etwas fahler und begann sich an den Schläfen schon leicht gräulich zu färben. Baduin war mit einem Schlag 16 Jahre gealtert.
+
+Baduin rappelt sich wieder auf und verdrängt fürs Erste den Umstand, dass er gerade gealtert ist. Er vertraut ganz seiner Ausbildung und den Lehren der Magie: "Was Magie durcheinander bringt, kann sie auch wieder ordnen". Er läuft über den Platz und an Gerion vorbei, der gerade etwas in seiner Hand betrachtet, während er neben dem Löschfahrzeug steht. Baduin erreicht die Gruppe von Frauen die trotz der Gefahr um sie herum nur mit sich selbst beschäfftigt zu sein scheinen. Um ihre Füsse herum verwirbeln gerade noch die letzten Reste einer bläulichen Wolke. Der Zauberer erkennt die Damen und sieht dass es die Frauen sind, die sie vorhin in der Schatzkiste gesehen haben. Dort waren sie aber sehr fröhlich und freundlich zu einander. Jetzt streiten sie lauthals und schubsen sich hin und her. "Wieso sind deine Locken immer so standhaft trotz des Dauernebels hier? Du hast sie doch verhext!".. "Wer ist hier eine Hexe du mit deiner Zinkennase... und ist das da eine Warze?" "Oh wehe dir du andergaster Dorfschnäpfe.." "unrasierte Thorwaldirne..." die Beschimpfungen werden immer wüster und die Frauen sind kurz davor auch handgreiflich zu werden.
+
+Alrigo steht währenddessen etwas benommen neben dem jungen Mann der sich rührend um die Frau kümmert, als er von einer
+
+```diff
+! Schicksal: Roll D6: 6
+```
+
+braunen wolke überrascht wird, die aus den Bruchstücken des herabgestürzten Trümmerstücks hervor steigt.
+
+```diff
++ Alrigo: Roll 'Körperberrschung(6)': GE(9/15), GE(4/15), KO(13/13),  -> FP: 6 = QS:2
+```
+
+Mit einem gekonnten Ausfallschritt gefolgt von einer Finte umgeht er die Wolke graziel und kann ihr ohne Probleme ausweichen. Einer vorbeifliegenden Taube ergeht es nicht ganz so gut. Sie durchfliegt den Dunst und landet kurz darauf auf den Trümmern. sofort beginnt ihr ein Fell zu wachsen und als sie wieder abhebt, ist sie wahrlich eine Ratte der Lüfte.
+
+Gorgol rappelt sich indess wieder auf, schaut sich um ob weitere Gaswolken auf ihn zu wabern. Langsam und vorsichtig geht es auf das Löschfahrzeug zu. Zur Sicherheit hält er 5 Zwergenarme Abstand zu den Flammen.
+Er ist noch etwas benommen von dem Sprung und dem Sturz auf das Pflaster. Seine Kameraden sind alle schon losgelaufen. In eniger Entfernung sieht er Baduin bei einigen Frauen stehen und Gerion kniet neben einem Efferdgeweihten im Dreck der Straße. Gorgol fragt sich wieso noch niemand das Naheliegenste versucht hat und richtet die Pumpspritze des Löschfahrzeuges auf die Flammen. 
+
+```diff
++ Gorgol: Roll 'Kraftakt(10)': KO(14/15 [Mod:-1]), KK(3/15 [Mod:-1]), KK(18/15 [Mod:-1]),  -> FP: 6 = QS:2
+```
+
+Da Gorgol keine Erfahrung mit dem Bekämpfen von Feuer hat hält er der Spritze direkt in einen Flammenherd in der Nähe und fängt wie wild an zu pumpen.
+Bei allem Glück im Unglück wurde die Spritze des Pumpenwagens leicht verbeult. Als der Zwerg wie wild anfängt zu pumpen entsteht kein Wasserstrahl sondern das Wasser zerstäubt und es entsteht ein Wassernebel. Dieser löscht zwar nicht unmittelbar das Feuer bindet aber die bunten Wolken aus der Luft und die Schadstoffe fallen nieder. Auch die Flammen werden so etwas weniger, weil sich Rinnsale mit Wasser bilden, die die kleineren Glutnester löschen.
+Gorgol versucht so gut es geht alle Glutnester um ihn herum unter Kontrolle zu bekommen, damit sich das Feuer nicht weiter ausbreiten kann.
+
+Andernorts tritt Baduin zwischen die beiden Frauen und sagt: *"Bitte, werte Damen, das ist nicht der Zeitpunkt um zu streiten. Sehr ihr nicht, wie viele Verletzte hier unserer Hilfe bedürfen?"*
+
+```diff
+- Baduin: Roll 'Bekehren & Überzeugen(0)': MU(2/12), KL(16/15), CH(8/14),  failed
+```
+
+*"Ihr schon wieder! Ihr mit eurem Zwergenfreund mit den hässlichen Zähnen. Geht und schaut nach wo der Nekker die Locken hat!"* schleudert ihm eine der Frauen entgegen. *"Ja genau, alter Mann was willst du überhaupt. sie zu dass du Land gewinnst!"* Die Frauen vereint nun der Zorn auf Baduin und sie streiten sich nicht mehr untereinander. Zumindest soviel konnte der Zauberer erreichen. Als der Regen einsetzt nähert sich den Fauen noch eine weitere junge Dame. Die kleine die den Helden vorhin auf der Brücke entgegen gekommen ist. Sie scheint auch von einer Wolke erfasst wurden zu sein, wenn auch von einer anderen. Alrigo erlebte bereits die Wirkung einer Braunen Wolke auf Tauben. die junge Dame trägt nun eine üpigen Vollbart, versucht aber trotz ihrere eigenen misslichen Lage ihre Freundinnen zu beruhigen und sie lassen von Baduin ab.
+
+Auch wenn sie nicht dem selben Gott verpflichtet sind, verbindet die beiden Geweihten, die nun auf der Straße knien doch das selbe Pantheon. Die Macht des Halbgottes Aves und die des großen Gottes Efferd eint sich in einem Aufbrausen der See. In der Ferne hört man die Wellen an die Kaimauer schlagen und der Wind beginnt den Nebel davon zu wehen. Zunächst scheint ein gegenteiliger Effekt aufzutretten und die Flammen werden angefacht vom Wind noch stärker. Doch dann Wird aus der Brise ein Fallfind, der sich direkt auf die Trümmer der Apotheke stürzt und die Flammen nieder drückt. Die beiden Geweihten murmeln ihre Liturgien und Gebete an ihr Herren und gemeinsam lösen Sie einen Wolkenbruch aus, der selbst in Havena noch seines Gleichen sucht. Dieser ist allerdings so lokal begrenzt, dass nur die Apotheke und die unmittelbare Umgebung davon betroffen sind. Die Serganten bringen den verletzten Mann in Sicherheit, der junge Mann bei Alrigo stützt die Frau und geleihtet sie unter ein Vordach in der Nähe. Der langhaarige wischt sich die nasse Mähne aus dem Gesicht und schleppt die schwere Last der feuchten Haare davon. Gorgol ist sich nicht sicher ob es der Wasserschleier ist der vor seinen Augen vorbeizieht oder noch die auswirkung des Nekker-Bräus von Waern, aber ihm ist, als ob er am Straßenrand eine Maus auf einer Katze reitend die Flucht antreten sieht. Der Regen hält nur wenige Sekunden, doch als er vorbei ist, ist ds Feuer gelöscht und nur noch vereinzelt fallen die letzten Bruchstücke aus der Fassade auf die nasse Straße.
+
+Erfreut und in seinem Glauben stärker den je, erhebt Gerion seine Stimme *"Habt Dank ihr Götter, die Zwölfe seien gepriesen! Rasch lasst uns nachsehen. ob in der Apotheke noch jemand lebt."* Gerion sieht sich um, ob noch jemand Hilfe braucht und läuft in Richtung Apotheke.
+Gerion sieht Baduin noch die Frauen beruhigen, sonst ist aber niemand mehr zu sehen, der sich unmittelbarer Gefahr befindet. Die Feuer sind gelöscht. Als Gerion los läuft um eventuell doch noch jemanden zu retten, übersieht er ein Rinsal mit
+
+```diff
+! Schicksal: Roll D6: 2
+```
+
+gelber Farbe und rutscht darin aus.
+
+```diff
+- Gerion: Roll 'Körperberrschung(4)': GE(20/14), GE(17/14), KO(7/13),  failed
+! Schicksal: Roll D20: 15
+```
+
+Gerion wird gelb vor Augen und auch er sieht den Vortex der ihn durchdringt. Hätte er Baduins Erlebnis geteilt, wäre ihm aufgefallen, dass sein Vortex sich entgegengesetzt dreht. Krämpfe erfassen seinen Körper, als diese jedoch nachlassen fühlt Gerion sich beschwingter als in den letzen 15 Jahren. Als er sich an den Kopf fasst, merkt er dass dort plötzlich Haare sind wo vorher keine waren. Da er eine zweite Pupertät ausschliesst, kommt er zu dem Schluiß, dass er jetzt 15 Jahre jünger ist.
+Die gelbe Flüssigkeit hat scheinbar beim Kontakt mit Gerions Haut ihre magische Wirkung verloren und flißt jetzt schmutzig grau in die nächstes Kanalisationsöffnung.
+
+So schnell der Regen kam, so schnell hat er sich auch wieder verzogen. Mit einem lauten Platsch, fällt das letzte Trümmerstück der Apotheke in den Schlam und es spritzt noch einmal bunt auf. Da die Helden aber allesamt noch nicht nah genug heran sind, geschieht nichts weiter. Die Feuer sind gelöscht, die Apotheke ist jedoch bis auf die Grundmauern herunter gebrannt. Wenigstens können nun keine Bruchstücke mehr herunterfallen, und die Helden können die Ruine betreten.
+Baduin folgt Gerion zu den Trümmern der Apotheke. Dieser stolpert kurz und stürzt fast. Sein Körper verhält sich auf einmal ganz anders. Während er sich noch über seine Wandlung wundert stolpert er mit unerwartet hohem, jugendlichen Tempo weiter in die Apotheken-Ruine. Dort fällt er über das verkohlte Schild mit dem teils seltsam verformten Schriftzug *"Ehrwalts Tränke & Mixturen"* und landet zwischen den nassen, verkohlten Überresten der Apotheke. Unter ihm knirschen die Reste der Glaskolben und Flaschen und schneiden in seine Hände als er sich abstützt. *"Verdammt, was ist denn jetzt los?"* Gerion schaut sich kniend um. *"Ist hier jemand?"* *"wie hieß er nochmal - ach ja'*  *"Kitoran?  Herr Ehrwalt? Ist hier jemand?"*
+Gerion steht nun dort, wo einst der Verkaufsraum mit der Theke war. Leben ist hier wahrlich nicht mehr zu erkennen. Es stinkt ganz fürchterlich und es qualmt aus allen Poren. Auf Gerions Rufe reagiert niemand. 
+
+```diff
++ Gerion: Roll 'Körperberrschung(4)': GE(13/14), GE(5/14), KO(4/13),  -> FP: 4 = QS:2
+- Baduin: Roll 'Körperberrschung(0)': GE(14/12), GE(6/12), KO(18/10),  failed
+- Baduin: Roll 'Sinnesschärfe(2)': KL(6/15), IN(17/14), IN(1/14),  failed
+```
+
+Als Baduin den Raum betritt, sieht er erstmal nur die Überreste der Theke. dahinter sind zwei Durchgänge in angrenzende Räume, der Qualm versperrt Baduin aber die Sicht. Er kann sich jedoch daran errinnern, dass sich im Hinterzimmer der Apotheke das Labor befand, Kitoran hatte bei einigen Bierchen in der Schatzinsel öffters davon gesprochen.
+Während Baduin sich noch umschaut steigt ihm der Geruch in die Nase und ihm würd übel. Es gelingt ihm zwar den Brechreiz zu unterdrücken, aber dennoch wird ihm sehr flau im Magen.
+
+Gerion läuft, vorsichtig über Trümmer steigend, durch die nächstgelegene Tür und sucht nach Überlebenden. *"Hallo, ist hier jemand?"*
+
+```diff
++ Gerion: Roll 'Sinnesschärfe(8)': KL(5/12), IN(10/15), IN(19/15),  -> FP: 4 = QS:2
+```
+
+Um durch die Tür zu gelangen, die eigentlich nur mehr ein haboffener Türbogen ist, muss Gerion links an den Resten der Theke vorbei gehen. Dabei Sieht er
+
+```diff
+! Schicksal: Roll D6: 6
+```
+
+ein Fläschen mit
+
+```diff
+! Schicksal: Roll D6: 6
+```
+
+brauner Flüssigkeit.
+Der Qualm hinter der linken Tür beginnt sich zu lichten, da ohnehin kein Dach mehr da ist. Es antwortet ihm niemand als er den Raum betritt. Hier scheint das Feuer am schlimmsten gewühtet zu haben. Die Metalwannen für die Experimente, die Rührkelle und Glaszylinder sind geschmolzen oder zumindest stark deformiert. Was Gerion jedoch auffällt, ist dass die Asche und Trümmer nicht zufällig verteilt liegen. Es scheint, als ob alles halbkreisformig von der  Mitte der hinteren Wand, oder das was davon über ist, ausgeht.
+
+Gerion blickt kurz auf das Fläschchen, als er sich jedoch an die haarige Taube und die anderen Ereignisse erinnert weicht die Neugierde Misstrauen und Furcht. Er hält gebührenden Abstand zu allen Flüssigkeiten, Wolken und einfach allen seltsam aussehenden Dingen in diesem Laden.
+Er betrachtet neugierig das Zentrum des Chaos und geht vorsichtig auf die hintere Wand zu. *Was liegt im Zentrum der Trümmerspuren?*
+
+An der hinteren Wand liegen noch die Reste des Arbeitstisches auf dem die chemischen und alchemischen Expiremente und Fertigungen durchgeführt wurden. Im Zentrum selbst liegen nur zerstörte Glaskolben und die Reste eines Dolches aus einem schwarzen glasähnlichen Material. 
+
+```diff
++ Gerion: Roll 'Sinnesschärfe(8)': KL(19/12), IN(9/15), IN(16/15),  -> FP: 0 = QS:1
++ Baduin: Roll 'Sinnesschärfe(2)': KL(15/15 [Mod:-1]), IN(6/14 [Mod:-1]), IN(2/14 [Mod:-1]),  -> FP: 1 = QS:1
++ Alrigo: Roll 'Sinnesschärfe(6)': KL(11/11), IN(1/10), IN(9/10),  -> FP: 6 = QS:2
+```
+
+
+Als Alrigo und Baduin auch den Raum betreten hat sich der Rauch schon zur Gänze verflüchtigt. Baduin tritt neben Gerion und betrachtet die Stelle von der aus die Explosionen wohl ihren Lauf genommen haben. Ihm fällt dabei auf, das sich circa alle 30 cm ein Kreis, beziehungsweise ein halbkreis ausgehend von der Wand um das Zentrum zieht. Als er Gerion darauf aufmerksam macht, stellt dieser fest, dass die meisten kleineren Trümmerteile und Überreste nicht vom Zentrum weg deuten, sondern hinein. Als wären sie angesaugt wurden.
+
+```diff
+! Schicksal: Roll D6: 1
+```
+
+Baduin findet unter einem umgestürzten Tisch ein Fläschchen mit einer Violeten Flüssigkeit, sie erinnert ihn an die Wolke, die die Kutsche eingehüllt hat.
+
+Alrigo der noch am nähesten zur Tür steht, fällt ein kleins Ei auf, das auf dem Boden liegt. Als er es aufhebt und betrachtet fällt ihm auf, dass es aus Steineiche ist. Nicht richtig Holz und nicht richtig Stein. Um es aufzuheben musste sich Alrigo bücken und ist mit dem Kopf nun nahe am Boden. Da vernimmt er ein leises Stöhnen und Jammern. Es scheint aus dem anderen Eingang zu hinter der Theke zu kommen.
+Alrigo steckt das Ei ein und geht vorsichtig zu dem anderen Eingang.
+Der Eingang führt zu einer Treppe in den Keller. Alrigo kann nun klar erkennen, dass die Geräusche von dort kommen.
+
