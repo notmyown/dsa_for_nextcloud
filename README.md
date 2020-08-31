@@ -479,3 +479,26 @@ Gerion schaut nicht ganz überzeugt auf das Vögelchen, geht aber in Richtung de
 
 Angewidert schaut Alamaire Gerion an. *"Ich soll eine Gesichtsmaske trinken?"* Doch er versteht die Intention. Er benetzt seine Finger mit dem Sud und augenblicklich verschwinden die Altersflecken auf der runzligen Haut. Gierig schüttet der alte Mann sich die gelige Flüssigkeit ins Gesicht und übers Haupt. Die Substanz verpufft und dampft in einer gelben Wolke aus, die sich schnell verflüchtigt.
 Gerion nickt und wendet sich zu dem Vogel "So mein Freund, was machen wir mit dir? Welch seltsames Wesen bist du?" Zu den anderen gewandt meint er *"Ich habe das Gefühl, der kleine Piepmatz ist mehr als ein kleiner Vogel. Er scheint uns zu verstehen, schaut her!"*  Gerion blickt den Vogel an und fordert ihn auf *"Fliegt auf Alrigos Kopf"*
+Dieser fliegt daraufhin tatsächlich los und macht es sich in Alrigos Hutkrempe gemütlich.
+
+Alamair ist indes wieder etwas jünger geworden. Baduin stellt zwar fest, dass es noch immer nicht das Erscheinungsbild ist, das er von dem gepflegten und leicht überheblichen Apotheker gewohnt war, aber zumindest sieht er nicht mehr so aus, als ob ihn jeden Moment der Schnitter holen kommt. Leider stellt Baduin auch noch fest, dass die gelbe Tinktur nahezu vollkommen verbraucht ist. Ein letzter Rest befindet sich noch darin.
+
+Baduin nutzt den Rest der Tinktur und schüttet ihn sich ebenfalls über den Kopf.
+
+```diff
+! Baduin: Roll D20: 19
+```
+
+Er fühlt sich immerhin wieder 4 jahre jünger.
+```diff
++ Baduin: Roll 'Magiekunde(10)': KL(8/15), KL(7/15), IN(2/14), -> FP: 10 = QS:4
+```
+
+Der Magier konzentriert sich zunächst auf die Tinktur und stellt dabei fest, dass es sich bei den Tropfen die noch verblieben sind, tatsächlich um ein magisches Erzeugnis handelt. Als er sich jedoch auf den Apotheker konzentriert, stellt er keine magischen Fähigkeiten oder Rückstände fest. Baduin schafft es ein taumaturgische Aura soweit auszudehnen, dass er das ganze Haus abtasten kann. Er findet den zerbrochenen Vulkanglasdolch von Kitoran, den auch Gerion schon an der Ursprungsstelle der Implosion gefunden hatte, aber neben ein paar kleinen Resten der verschiedenen Mittelchen kann er keine weitere Magie entdecken.
+
+Gerion stellt fest *"Baduin, du siehst besser aus, den Rest bekommen wir auch wieder hin. Hast du den Vogel gesehen? Er kann mich wohl verstehen. Vögelchen, hast du einen Hinweis für uns? Willst du uns noch etwas sagen?"*
+
+Der Vogel ist ansich genauso magisch, wie es der Apotheker ist. Oder Baduin selbst. Wenn es Magie gab, ist sie verflogen.
+
+
+
