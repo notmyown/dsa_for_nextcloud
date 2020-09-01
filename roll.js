@@ -108,6 +108,11 @@ javascript:(function(){
 
 			var ch = JSON.parse(window.localStorage.getItem('dsa'));
 			if (!ch) {
+				$('.scroller').unbind("DOMSubtreeModified").bind('DOMSubtreeModified', function(){
+					patchNames([]);
+					$(".scroller .message__main__text DIV:contains('Roll ')").addClass("dsa_roll_text");
+					$("DIV.dsa_roll_text:contains('failed')").addClass("failed");
+				});
 				return;
 			}
 			
@@ -131,7 +136,7 @@ javascript:(function(){
 			patchNames(ch.namemap);
 			$('.scroller').unbind("DOMSubtreeModified").bind('DOMSubtreeModified', function(){
 				patchNames(character.namemap);
-				$("DIV[data-v-0e88e150]:contains('Roll ')").addClass("dsa_roll_text");
+				$(".scroller .message__main__text DIV:contains('Roll ')").addClass("dsa_roll_text");
 				$("DIV.dsa_roll_text:contains('failed')").addClass("failed");
 			});
 		}
@@ -142,7 +147,7 @@ javascript:(function(){
 			}
 			$.each(map, function(key, element) {
 				if (element.length > 0) {
-					$("h6[data-v-99efb80e]:contains('" + key + "')").text(element);
+					$(".message__author h6:contains('" + key + "')").text(element);
 				}
 			});
 		}
@@ -166,7 +171,34 @@ javascript:(function(){
 		}
 		
 		function addDSATab() {
-			$(".app-sidebar-tabs__nav UL").append("<li data-v-2e504e82='' class='app-sidebar-tabs__tab'><a data-v-2e504e82='' id='dsa' aria-controls='tab-dsa' data-id='dsa' href='#tab-dsa' role='tab' class='' tabindex='-1'><span data-v-2e504e82='' class='app-sidebar-tabs__tab-icon icon-dsa'></span>DSA</a></li>			");
+			var first = $(".app-sidebar-tabs__nav UL LI").first();
+			var li_data_v = "";
+			first.each(function() {
+				$.each(this.attributes, function() {
+					if(this.specified && this.name.startsWith('data-v')) {
+						li_data_v = this.name;
+					}
+				});
+			});
+			var a_data_v = "";
+			first = $(".app-sidebar-tabs__nav UL LI A").first();
+			first.each(function() {
+				$.each(this.attributes, function() {
+					if(this.specified && this.name.startsWith('data-v')) {
+						a_data_v = this.name;
+					}
+				});
+			});
+			var span_data_v = "";
+			first = $(".app-sidebar-tabs__nav UL LI A SPAN").first();
+			first.each(function() {
+				$.each(this.attributes, function() {
+					if(this.specified && this.name.startsWith('data-v')) {
+						span_data_v = this.name;
+					}
+				});
+			});
+			$(".app-sidebar-tabs__nav UL").append("<li " + li_data_v + "='' class='app-sidebar-tabs__tab'><a " + a_data_v + "='' id='dsa' aria-controls='tab-dsa' data-id='dsa' href='#tab-dsa' role='tab' class='' tabindex='-1'><span " + span_data_v + "='' class='app-sidebar-tabs__tab-icon icon-dsa'></span>DSA</a></li>			");
 			
 			var styles = "<style type='text/css'>"  +
 				".dsa_color_val TD { font-weight: bold; text-align: center; cursor: pointer;} " +
@@ -186,6 +218,7 @@ javascript:(function(){
 				".ui-dialog { z-index: 99999;} " + 
 				".dsa_roll_text {color: green;} " + 
 				".dsa_roll_text.failed {color: red;} " + 
+				".dsa_attributes TD INPUT.custom_skill_name, .dsa_attributes TD INPUT.custom_skill_attr {width: auto;} " + 
 				".dsa_roll_text::before { content: url(" + dice20logo + "); vertical-align: -33%; padding-right: 5px;} " + 
 			"</style>";
 			$("head").append(styles);
@@ -224,6 +257,7 @@ javascript:(function(){
 						var category = items[j];
 						inputs += "<span class='skill_subheadline' category='" + category[0] + "' >" + category[0] + "</span>";
 					}
+					inputs += "<span class='skill_subheadline' category='Eigene' >Eigene</span>";
 					inputs += "</td></tr>";
 					for(var j = 0; j < items.length; j++) {
 						var category = items[j];
@@ -233,6 +267,8 @@ javascript:(function(){
 						}
 					}
 					
+				inputs += "<tr class='skill tree_Eigene'><td>Name:<input class='custom_skill_name custom'></td><td>Wert: <input type='number' value='0' class='custom_skill_value custom'/></td><td><input class='custom_skill_attr custom'></td><td><img class='skill_dice_custom' src='" + dice20logo + "' /></td></tr>";	
+				inputs += "<tr class='skill tree_Eigene'><td colspan=4>Hier lassen sich eigene Würfel-Kombinationen eingeben. <ul><li>Name: Anzeigename des Talents</li><li>Wert: Talentwert für die QS <br> Attr: Attribute in der Form WU/CH/GE </td></tr>";	
 					
 				inputs += "</table>";
 				$(".app-sidebar-tabs__content.app-sidebar-tabs__content--multiple").append("<section data-v-02f177dc='' data-v-5580c196='' id='tab-dsa' aria-labelledby='DSA' tabindex='0' role='tabpanel' style='display:none'>" + settings + inputs + "</section>");
@@ -248,58 +284,33 @@ javascript:(function(){
 				$("TR.skill.tree_" + cat).css("display", "table-row");
 			});
 			
-			
-			
 			$(".skill_dice").click(function() {
 				var name = $(this).attr("dice-name");
 				var attr = $(this).attr("dice-attr");
-				var attrs = attr.split("/");
 				var qsLeft = $("input[dice-attr-id='" + name.toLowerCase() + "']").val();
-				var mod = getModificator();
-				if (qsLeft == 'undefined' || qsLeft.length < 1) {
-					qsLeft = 0;
-				}
-				var msg = "Roll '" + name + "(" + qsLeft + ")': ";
-				for (var i=0; i < attrs.length; i++) {
-					var val = getNumValue($("#dsa_" + attrs[i]));
-					var r = rand(20);
-					msg += attrs[i].toUpperCase() + "(" + r + "/" + val + (mod != 0 ? " [Mod:" + mod + "]": "") + "), ";
-					val = val+mod;
-					if (r > val) {
-						qsLeft -= (r-val);
-					}
-				}
-				qs = 0;
-				if(qsLeft > -1) {
-					qs = 1;
-				}
-				if(qsLeft > 3) {
-					qs = 2;
-				}
-				if(qsLeft > 6) {
-					qs = 3;
-				}
-				if(qsLeft > 9) {
-					qs = 4;
-				}
-				if(qsLeft > 12) {
-					qs = 5;
-				}
-				if(qsLeft > 15) {
-					qs = 6;
-				}
-				
-				msg += qsLeft >= 0 ? (" -> FP: " + qsLeft + " = QS:" + qs) : " failed";
-				send(msg);
+				skillDice(name, qsLeft, attr);
 			});
 			
+			$(".skill_dice_custom").click(function() {
+				var tr = $(this).closest('tr');
+				var name = tr.find(".custom_skill_name").val();
+				var qsLeft = tr.find(".custom_skill_value").val();
+				var attr = tr.find(".custom_skill_attr").val().toLowerCase();
+				skillDice(name, qsLeft, attr);
+			});
 		
 			$(".dsa_attributes INPUT").change(function() {
+				if ($(this).hasClass('custom') ) {
+					return;
+				}
 				getNumValue($(this));				
 				saveDSAData();
 			});
 			
 			$(".skill INPUT").change(function() {
+				if ($(this).hasClass('custom') ) {
+					return;
+				}
 				getNumValue($(this));
 				saveDSAData();
 			});
@@ -332,6 +343,46 @@ javascript:(function(){
 			});
 			
 			$("#dsa").click();
+		}
+		
+		function skillDice(name, qsLeft, attr) {
+			var attrs = attr.split("/");
+			var mod = getModificator();
+			if (qsLeft == 'undefined' || qsLeft.length < 1) {
+				qsLeft = 0;
+			}
+			var msg = "Roll '" + name + "(" + qsLeft + ")': ";
+			for (var i=0; i < attrs.length; i++) {
+				var val = getNumValue($("#dsa_" + attrs[i]));
+				var r = rand(20);
+				msg += attrs[i].toUpperCase() + "(" + r + "/" + val + (mod != 0 ? " [Mod:" + mod + "]": "") + "), ";
+				val = val+mod;
+				if (r > val) {
+					qsLeft -= (r-val);
+				}
+			}
+			qs = 0;
+			if(qsLeft > -1) {
+				qs = 1;
+			}
+			if(qsLeft > 3) {
+				qs = 2;
+			}
+			if(qsLeft > 6) {
+				qs = 3;
+			}
+			if(qsLeft > 9) {
+				qs = 4;
+			}
+			if(qsLeft > 12) {
+				qs = 5;
+			}
+			if(qsLeft > 15) {
+				qs = 6;
+			}
+			
+			msg += qsLeft >= 0 ? (" -> FP: " + qsLeft + " = QS:" + qs) : " failed";
+			send(msg);
 		}
 		
 		function showSettings() {
